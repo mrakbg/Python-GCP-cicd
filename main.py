@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def main():
-    model = {"title": "Hello sukku, mindtree lo evaraina unte cheppu."}
+    model = {"title": "Anuj Mahaaaan."}
     return render_template('index.html', model=model)
 
 if __name__ == "__main__":
